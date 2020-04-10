@@ -1,0 +1,95 @@
+/*Кнопки*/
+.btn {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: all 0.35s;
+  font-size: 1rem;
+}
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+
+  &:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+}
+.btn-outline-info {
+  border-color: #17a2b8;
+  color: #17a2b8;
+
+  &:not(&.btn-disabled):hover {
+    background-color: #138496;
+    border-color: #117a8b;
+    color: #fff;
+  }
+}
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+
+  &:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+}
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+  &:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+}
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  &:hover {
+    border-color: #c82333;
+    background-color: #c82333;
+    color: #fff;
+  }
+}
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+  &:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+}
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+  &:hover {
+    border-color: #218838;
+    background-color: #218838;
+    color: #fff;
+  }
+}
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+  &:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+}
+.btn-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+  &:hover {
+    border-color: #ffc107;
+    background-color: #ffc107;
+    color: #fff;
+  }
+}
+.btn-disabled {
+  opacity: 0.6;
+  cursor: default;
+}

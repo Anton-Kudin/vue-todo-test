@@ -1,0 +1,29 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+p, h1, h2, h3, ul{
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+input, textarea{
+  outline: none;
+  border: none;
+  background: transparent;
+}
